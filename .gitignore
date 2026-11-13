@@ -1,0 +1,31 @@
+# ---- Private data: never commit -------------------------------------------
+data/
+tracker.csv
+send_log.csv
+drafts/
+cache/
+.lock
+outreach.env
+.env
+.env.*
+!*.env.example
+credentials*.json
+client_secret*.json
+token*.json
+*.pem
+*.key
+*.pdf
+companies.txt
+
+# ---- Caches / tooling ------------------------------------------------------
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.DS_Store
+*.log
